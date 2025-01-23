@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pergunta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Você gosta de sorvete?</h1>
+        <div class="buttons">
+            <button id="sim-btn">Sim</button>
+            <button id="nao-btn">Não</button>
+        </div>
+    </div>
+
+    <!-- Modal do vídeo -->
+    <div id="video-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <iframe 
+                id="youtube-video"
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/QUlMp1X1Gtk?si=qmKe3Ipxj34As-o2&start=29&autoplay=1" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+            </iframe>
+        </div>
+    </div>    
+    <script src="script.js"></script>
+</body>
+</html>
